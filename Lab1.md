@@ -1,6 +1,8 @@
 # Linux and Command Line Course
 
-## Lab Responses
+##Michael Phelps
+
+### Lab Responses
 
 ---
 
