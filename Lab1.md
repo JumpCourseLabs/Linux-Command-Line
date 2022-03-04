@@ -147,20 +147,39 @@ chmod u+rx,go+r labDir
 
 ## Lab 4
 
-Normally, I would edit the motd to execute
+Removed all executable permissions on `/etc/update-motd.d/*` and added a 01-custom file with executable permissions. I also installed some ansi goodies to make it pretty:
 
 ```
-echo "Michael Phelps"
-date
-hostname
+#!/bin/sh
+echo "GENERAL SYSTEM INFORMATION"
+/usr/bin/screenfetch
+echo
+echo "SYSTEM DISK USAGE"
+export TERM=xterm; inxi -D
+echo
+echo "Welcome Michael"
+echo "Today's Date is: " $(date)
+echo "Your Host is: " $(hostname)
+echo
+echo "The Current Weather is: "
+ansiweather -l Fairfield,US -u imperial
+
 ```
 
-However, WSL is set to autologin on launch (I never have to input a user/password,) so it never shows. I'm not sure how to disable that - I'm trying to figure that out right now.
+![img](login.png)
 
 ---
 
 ## Lab 5
 
-Ok, I'm not sure how to "show" this one, other than a cat of the final product - I wasn't sure what you meant about the "output of google search, So I grabbed a wikipedia article on "Hello World"
+With VI:
+Before:
+![img](Vi_Before.png)
+After:
+![img](Vi_After.png)
 
-![image](Screenshot_12.png)
+With Nano:
+Before:
+![img](Nano_Before.png)
+After:
+![img](Nano_After.png)
