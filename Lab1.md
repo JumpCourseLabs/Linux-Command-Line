@@ -1,6 +1,6 @@
 # Linux and Command Line Course
 
-##Michael Phelps
+## Michael Phelps
 
 ### Lab Responses
 
@@ -172,13 +172,13 @@ ansiweather -l Fairfield,US -u imperial
 
 ## Lab 5
 
-With VI:
+With VI:  
 Before:
 ![img](Vi_Before.png)
 After:
 ![img](Vi_After.png)
 
-With Nano:
+With Nano:  
 Before:
 ![img](Nano_Before.png)
 After:
