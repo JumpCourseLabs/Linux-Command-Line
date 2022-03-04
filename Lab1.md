@@ -147,4 +147,20 @@ chmod u+rx,go+r labDir
 
 ## Lab 4
 
-Ran out of time
+Normally, I would edit the motd to execute
+
+```
+echo "Michael Phelps"
+date
+hostname
+```
+
+However, WSL is set to autologin on launch (I never have to input a user/password,) so it never shows. I'm not sure how to disable that - I'm trying to figure that out right now.
+
+---
+
+## Lab 5
+
+Ok, I'm not sure how to "show" this one, other than a cat of the final product - I wasn't sure what you meant about the "output of google search, So I grabbed a wikipedia article on "Hello World"
+
+![image](Screenshot_12.png)
